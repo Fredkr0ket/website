@@ -1,0 +1,12 @@
+node_modules
+
+*-lock.*
+*.lock
+*.env*
+
+*.log
+
+# ignore these ignores
+!*.bkp
+!*.bak
+!.gitkeep
