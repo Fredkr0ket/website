@@ -15,7 +15,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
- <Routes>
+      <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
