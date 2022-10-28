@@ -1,8 +1,13 @@
 import React from 'react';
-
+import Footer from '../components/footer/Footer';
+import NavBar from '../components/Navbar'
 function Home() {
     return (
-        <h1>this is the homepage</h1>
+      <>
+        <NavBar />
+        <h1>this is the hodsaffadfasmepage</h1>
+        <Footer />
+      </>
     );
 }
 

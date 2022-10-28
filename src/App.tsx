@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import MonkeyWars from "./pages/MonkeyWars"
@@ -16,13 +15,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="monkeywars" element={<MonkeyWars />} />
           <Route path="jeffindahood" element={<JeffindaHood />} />
           <Route path="nekkletser" element={<NekKletser />} />
-        </Route>
       </Routes>
     </BrowserRouter>
   );
